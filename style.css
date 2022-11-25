@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: rgb(237, 234, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.name {
+    background: rgb(239, 204, 210);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    float: left;
+    width: 30%;
+    height: 380px;
+}
+
+.name:hover {
+    color: #111;
+    background: rgb(221, 146, 146);
+    box-shadow: 0 0 20px rgb(93, 48, 48);
+}
+
+.name h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.btn1 {
+    background-color: rgb(239, 204, 210);
+    border-color: rgb(183, 113, 125);
+    margin-left: 75px;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: transform 300ms;
+}
+
+.btn1:hover {
+    background-color: palevioletred;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.btn {
+    background-color: rgb(239, 204, 210);
+    border-color: rgb(183, 113, 125);
+    margin-left: 35px;
+    margin-top: -24px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.btn:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.phone {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.row1 .photo {
+    height: 400px;
+
+    width: 61%;
+    float: left;
+    margin: 13.5px;
+    object-fit: cover;
+}
+
+.row1 .photo:hover {
+    color: #111;
+    background: rgb(236, 198, 198);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.row2 {
+    width: 94%;
+    margin: 3px;
+    margin-right: 5px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    background-image: url(./assets/background.jpg);
+}
+
+.row2:hover {
+    color: #111;
+    background-image: url(./assets/hover-img.jpg);
+    box-shadow: 0 0 20px rgb(93, 48, 48);
+}
+
+.about-me {
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    margin-top: 20px;
+}
+
+.me {
+    font-size: larger;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-right: 350px;
+}
+
+.education {
+    background: rgb(239, 204, 210);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    float: left;
+    width: 45%;
+    height: 380px;
+    text-align: center;
+}
+
+.education:hover {
+    color: #111;
+    background: rgb(221, 146, 146);
+    box-shadow: 0 0 20px rgb(93, 48, 48);
+}
+
+.education h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.cap {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: -11px;
+}
+
+.experience {
+    background: rgb(239, 204, 210);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    float: left;
+    width: 45%;
+    height: 380px;
+
+}
+
+.college {
+    font-size: larger;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.text-msg {
+    display: block;
+    margin-top: 10px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-right: 350px;
+    padding: 15px;
+}
+
+.text-msg2 {
+    display: block;
+    margin-top: 10px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-right: 350px;
+    padding: 15px;
+    height: 90px;
+}
+
+.text-msg-btn {
+    display: block;
+    margin-top: 10px;
+    width: 43%;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-right: 350px;
+    padding: 15px;
+    background-color: rgb(239, 204, 210);
+    border-color: rgb(183, 113, 125);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.text-msg-btn:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.row4 {
+    width: 94%;
+    margin: 3px;
+    margin-right: 5px;
+    height: 550px;
+    float: left;
+    text-align: center;
+    background-image: url(./assets/background.jpg);
+}
+
+.row5 {
+    width: 94%;
+    margin: 3px;
+    margin-right: 5px;
+    height: 130px;
+    float: left;
+    background: rgb(239, 204, 210);
+}
+
+.address {
+    color: gray;
+    font-weight: lighter;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+.address1 {
+    color: rgb(71, 67, 67);
+    font-weight: lighter;
+    margin-left: 330px;
+    margin-top: 8px;
+}
+
+.contact1 {
+    color: gray;
+    font-weight: lighter;
+    margin-left: 680px;
+    margin-top: -79px;
+}
+
+.phone1 {
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: xx-large;
+    color: black;
+}
+
+.phone2 {
+    margin-left: 50px;
+    margin-top: -35px;
+    font-size: larger;
+    color: black;
+}
