@@ -56,7 +56,6 @@ body {
     background-color: palevioletred;
     color: white;
     transition: 0.5s;
-
 }
 
 .btn {
@@ -93,7 +92,6 @@ a:hover {
 
 .row1 .photo {
     height: 400px;
-
     width: 61%;
     float: left;
     margin: 13.5px;
