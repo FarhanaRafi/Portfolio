@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: rgb(237, 234, 234);
@@ -66,7 +70,11 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s;
+}
 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .btn:hover {
@@ -74,8 +82,12 @@ body {
     color: white;
 }
 
+a:hover {
+    color: white;
+}
+
 .phone {
-    margin-right: 10px;
+    margin-right: 3px;
     margin-top: 5px;
 }
 
